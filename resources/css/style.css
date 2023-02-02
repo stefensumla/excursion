@@ -3,6 +3,13 @@ body{
     box-sizing: border-box;
 }
 
+div.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 h1 {
     font-family: Verdana, sans-serif;
     font-weight: normal;
@@ -11,8 +18,10 @@ h1 {
     text-align: center;
 }
 
-#header h3{
+h3.download {
     color: aquamarine;
     font-size: 16px;
     text-decoration: underline;
+    text-align: center;
+    cursor: pointer;
 }
